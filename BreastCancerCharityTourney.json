@@ -1,6 +1,6 @@
 {
 	"Name": "Sweet's Breast Cancer Tournament",
-	"Version": 1789152797,
+	"Version": 1789185573,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "The Blight Serum add-on is banned on all killers.",
 	"Tiers": [
@@ -66,6 +66,7 @@
 				"111",
 				"113",
 				"260",
+				"114",
 				"302",
 				"116",
 				"305",
@@ -286,6 +287,7 @@
 				"77",
 				"80",
 				"82",
+				"85",
 				"88",
 				"89",
 				"95",
@@ -297,6 +299,7 @@
 				"107",
 				"109",
 				"110",
+				"111",
 				"112",
 				"253",
 				"118",
@@ -615,7 +618,7 @@
 			"IsDisabled": false,
 			"Map": [
 				"8",
-				"33"
+				"34"
 			],
 			"BalanceTiers": [
 				0,
