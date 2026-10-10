@@ -1,6 +1,6 @@
 {
 	"Name": "Sweet's Breast Cancer Tournament",
-	"Version": 1791345617,
+	"Version": 1791609022,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "The Blight Serum add-on is banned on all killers.",
 	"Tiers": [
@@ -248,6 +248,7 @@
 				"253",
 				"121",
 				"124",
+				"126",
 				"127",
 				"128",
 				"314",
@@ -1697,35 +1698,59 @@
 		},
 		{
 			"Name": "The Trickster",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "This killer is only allowed to be played as the TIEBREAKER and only if BOTH teams agree.\n\nBoth teams must run the Mina skin.",
+			"IsDisabled": false,
 			"Map": [
-				0
+				"8",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"261",
+				"307",
+				"50",
+				"54",
+				"65",
+				"112"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				450,
+				453,
+				455,
+				456,
+				457
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -1743,8 +1768,14 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Nemesis",
@@ -2279,35 +2310,56 @@
 		},
 		{
 			"Name": "The Xenomorph",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "This killer is only allowed to be played as the TIEBREAKER and only if BOTH teams agree.\n\nBoth teams must run the Xenomorph Queen skin.",
+			"IsDisabled": false,
 			"Map": [
-				0
+				"9"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"261",
+				"307",
+				"65",
+				"92"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				655,
+				654,
+				653,
+				658,
+				657
+			],
+			"ItemWhitelist": [
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2325,40 +2377,66 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Good Guy",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "This killer is only allowed to be played as the TIEBREAKER and only if BOTH teams agree.\n\nBoth teams must run the Tiffany skin.",
+			"IsDisabled": false,
 			"Map": [
-				0
+				"8",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"261",
+				"50",
+				"65",
+				"92"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				668,
+				671,
+				678
+			],
+			"ItemWhitelist": [
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2376,8 +2454,14 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Unknown",
@@ -2610,35 +2694,57 @@
 		},
 		{
 			"Name": "The Ghoul",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "This killer is only allowed to be played as the TIEBREAKER and only if BOTH teams agree.\n\nBoth teams must run the Rize skin.",
+			"IsDisabled": false,
 			"Map": [
-				0
+				"4",
+				"49"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
-			"KillerIndvPerkBans": [],
+			"KillerIndvPerkBans": [
+				"132",
+				"297"
+			],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"69"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				772,
+				773,
+				775,
+				776,
+				778
+			],
+			"ItemWhitelist": [
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2656,8 +2762,14 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Animatronic",
